@@ -460,13 +460,15 @@ section.submissao h2 img {
 section.submissao button {
   position: relative;
   padding: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   width: 45%;
   margin: 30px 20px;
   color: #949494;
   text-transform: uppercase;
-  background: #F4F4F4;
   border: 12x solid #F4F4F4;
   font-weight: 600;
+  font-size: 18px;
   border-radius: 2px;
   cursor: pointer;
   transition: all 0.4s;
@@ -476,6 +478,11 @@ section.submissao button {
     margin-bottom: 0;
     width: 80%;
   }
+}
+section.submissao button:hover {
+  color: #0F4032;
+  background: #11B7D4;
+  transition: all 0.4s;
 }
 section.localHospedagem {
   position: relative;
